@@ -1,0 +1,16 @@
+{
+  "name": "solved",
+  "owner": {
+    "name": "Solved"
+  },
+  "metadata": {
+    "description": "Solved plugins for legal research."
+  },
+  "plugins": [
+    {
+      "name": "solved-legal",
+      "source": "./plugins/solved-legal",
+      "description": "Research UK law using Solved's official sources."
+    }
+  ]
+}

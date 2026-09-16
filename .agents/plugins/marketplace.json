@@ -1,0 +1,20 @@
+{
+  "name": "solved",
+  "interface": {
+    "displayName": "Solved"
+  },
+  "plugins": [
+    {
+      "name": "solved-legal",
+      "source": {
+        "source": "local",
+        "path": "./plugins/solved-legal"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

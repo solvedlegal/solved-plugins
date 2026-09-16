@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "solved-legal",
+  "version": "0.1.0",
+  "description": "Research UK law using Solved's official sources.",
+  "author": {
+    "name": "Solved",
+    "url": "https://solved.legal"
+  },
+  "homepage": "https://solved.legal",
+  "repository": "https://github.com/solvedlegal/solved-plugins",
+  "keywords": ["law", "legal-research", "uk-law", "official-sources"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Solved Legal",
+        "shortDescription": "Research UK law using official sources.",
+        "longDescription": "Research UK law using Solved's official source-linked material and a search-to-read evidence workflow.",
+        "developerName": "Solved",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "websiteURL": "https://solved.legal",
+        "defaultPrompt": [
+          "Research this UK legal question using Solved Legal and cite each source separately."
+        ],
+        "brandColor": "#111111"
+      }
+    }
+  }
+}

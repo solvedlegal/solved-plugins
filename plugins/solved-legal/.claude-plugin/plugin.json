@@ -1,0 +1,9 @@
+{
+  "name": "solved-legal",
+  "displayName": "Solved Legal",
+  "version": "0.1.0",
+  "description": "Research UK law using Solved's official sources.",
+  "author": {
+    "name": "Solved"
+  }
+}
